@@ -30,7 +30,12 @@ public class CameraFollow : MonoBehaviour
 	void TrackPlayer ()
 	{
 		float x = Mathf.Clamp (player.transform.position.x, min.x, max.x);
-		float y = Mathf.Clamp (player.transform.position.y, min.y, max.y);
+		float y = Mathf.Max(player.position.y, min.y);
+        
+        if (max.y > 0f) {
+            y = Mathf.Clamp (player.transform.position.y, min.y, max.y);
+        }
+        
 		// Set the camera's position to the target position with the same z component.
         transform.position = new Vector3(x, y, -5f);
 	}
