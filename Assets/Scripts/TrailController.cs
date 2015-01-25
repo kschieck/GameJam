@@ -16,10 +16,8 @@ public class TrailController : MonoBehaviour
 
     void Start()
     {
-        GameObject parent = new GameObject("Spheres");
         positions = new List<PointMap>();
         
-
         StartCoroutine(line_follow());
     }
 
@@ -58,7 +56,7 @@ public class TrailController : MonoBehaviour
             }
 
             // Remove expired points
-            while (positions.Count > 0 && positions[0].time < t - line_duration)
+            while (line_duration > 0 && positions.Count > 0 && positions[0].time < t - line_duration)
             {
                 positions.RemoveAt(0);
                 count--;
@@ -88,6 +86,8 @@ public class TrailController : MonoBehaviour
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        if (other.gameObject.tag != "Player") { return; }
+
         Vector3 playerpos = other.gameObject.transform.position;
 
         int i=0;
