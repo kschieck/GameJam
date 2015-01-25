@@ -1,0 +1,128 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  tags:
+  - ground
+  - Crate
+  - Enemy
+  - Wall
+  - Obstacle
+  - Bullet
+  - BombPickup
+  - ExplosionFX
+  - HealthBar
+  - 
+  Builtin Layer 0: Default
+  Builtin Layer 1: TransparentFX
+  Builtin Layer 2: Ignore Raycast
+  Builtin Layer 3: 
+  Builtin Layer 4: Water
+  Builtin Layer 5: UI
+  Builtin Layer 6: 
+  Builtin Layer 7: 
+  User Layer 8: Bombs
+  User Layer 9: Player
+  User Layer 10: Enemies
+  User Layer 11: Pickups
+  User Layer 12: Ground
+  User Layer 13: 
+  User Layer 14: 
+  User Layer 15: 
+  User Layer 16: 
+  User Layer 17: 
+  User Layer 18: 
+  User Layer 19: 
+  User Layer 20: 
+  User Layer 21: 
+  User Layer 22: 
+  User Layer 23: 
+  User Layer 24: 
+  User Layer 25: 
+  User Layer 26: 
+  User Layer 27: 
+  User Layer 28: 
+  User Layer 29: 
+  User Layer 30: 
+  User Layer 31: 
+  m_SortingLayers:
+  - name: Default
+    userID: 0
+    uniqueID: 0
+    locked: 0
+  - name: sky
+    userID: 8
+    uniqueID: 703579049
+    locked: 0
+  - name: white sky
+    userID: 9
+    uniqueID: 4198689327
+    locked: 0
+  - name: moutain
+    userID: 10
+    uniqueID: 2559602019
+    locked: 0
+  - name: front mountain
+    userID: 11
+    uniqueID: 3379054679
+    locked: 0
+  - name: cloud
+    userID: 17
+    uniqueID: 2071619591
+    locked: 0
+  - name: tree
+    userID: 14
+    uniqueID: 3659266621
+    locked: 0
+  - name: branch
+    userID: 15
+    uniqueID: 1171427181
+    locked: 0
+  - name: cover
+    userID: 16
+    uniqueID: 3362843229
+    locked: 0
+  - name: house
+    userID: 12
+    uniqueID: 904340941
+    locked: 0
+  - name: front house
+    userID: 13
+    uniqueID: 839150581
+    locked: 0
+  - name: star
+    userID: 18
+    uniqueID: 1735993817
+    locked: 0
+  - name: moon
+    userID: 19
+    uniqueID: 3390217159
+    locked: 0
+  - name: Default
+    userID: 1
+    uniqueID: 3363470833
+    locked: 0
+  - name: Background
+    userID: 2
+    uniqueID: 1535931219
+    locked: 0
+  - name: Foreground
+    userID: 3
+    uniqueID: 1024582385
+    locked: 0
+  - name: Character
+    userID: 4
+    uniqueID: 2511236001
+    locked: 0
+  - name: UI
+    userID: 5
+    uniqueID: 149272721
+    locked: 0
+  - name: 
+    userID: 6
+    uniqueID: 2085650547
+    locked: 0
+  - name: New Layer one
+    userID: 7
+    uniqueID: 1553299115
+    locked: 0
