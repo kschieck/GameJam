@@ -388,7 +388,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &419333462
 RectTransform:
   m_ObjectHideFlags: 0
@@ -627,7 +627,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: .820689678, g: 0, b: 1, a: 1}
+  m_Color: {r: .738572419, g: .0131920548, b: .897058845, a: 1}
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
     m_FontSize: 24
@@ -640,7 +640,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Take this brush and reach for the TOP!~
+  m_Text: 
 --- !u!222 &506341554
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -2503,7 +2503,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   brush: {fileID: 955600900}
-  text: {fileID: 419333461}
+  statements:
+  - Ho Ho Ho
+  - Look at you.
+  - What will we do now?
+  - It's dangerous to go alone.
+  - Take this! Use it wisely!
+  text: {fileID: 506341553}
 --- !u!61 &2118231321
 BoxCollider2D:
   m_ObjectHideFlags: 0
