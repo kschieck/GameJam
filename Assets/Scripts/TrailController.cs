@@ -106,7 +106,8 @@ public class TrailController : MonoBehaviour
                 {
                     perp = -perp;
                 }
-                
+
+                other.rigidbody2D.velocity = Vector3.zero;
                 other.gameObject.GetComponent<Rigidbody2D>().AddForce(perp);
                 
 
