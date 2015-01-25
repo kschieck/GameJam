@@ -18,6 +18,7 @@ public class WizardController : MonoBehaviour {
     {
 
         triggered = true;
+		audio.Play();
         text.SetActive(true);
 
         yield return new WaitForSeconds(3f);
